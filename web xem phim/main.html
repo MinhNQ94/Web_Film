@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap&subset=vietnamese" rel="stylesheet">
+    <script src="./vendor/fontawesome/js/all.min.js"></script>
+    <title>Xem phim</title>
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid wide">
+                <nav class="header__navbar">
+                    <a href="" class="header__navbar-logo">
+                        <i class="header__navbar-logo-xxx fa-solid fa-film"></i>
+                        <span class="header__navbar-content">
+                                <b>3D</b>PHIM
+                            </span>
+                    </a>
+
+                    <ul class="header__navbar-list">
+                        <a href="" class="header__navbar-link">
+                            <li class="header__navbar-link-item header__navbar-link-item-boder">Châu Á</li>
+                        </a>
+                        <a href="" class="header__navbar-link">
+                            <li class="header__navbar-link-item">Châu Âu-Mỹ</li>
+                        </a>
+                        <a href="" class="header__navbar-link">
+                            <li class="header__navbar-link-item">Phim truyền hình</li>
+                        </a>
+                        <a href="" class="header__navbar-link">
+                            <li class="header__navbar-link-item">Mới phát hành</li>
+                        </a>
+                        <a href="" class="header__navbar-link">
+                            <li class="header__navbar-link-item">Anime</li>
+                        </a>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="app__container">
+            <div class="grid wide">
+                <div class="container__search">
+                    <div class="container__search-input-wrap">
+                        <input type="text" class="container__search-input" placeholder="Bạn muốn tìm phim gì?">
+                    </div>
+                    <button class="container__search-btn">
+                        <a href="" class="btn">
+                            <span>Tìm kiếm</span>
+                        </a>
+                    </button>
+                </div>
+
+                <div class="home-filter">
+                    <span class="home-filter__text">Phim mới nhất</span>
+                    <div class="home-filter__menu">
+                        <button class="home-filter__btn home-filter__btn-primary">
+                            Tất cả phim
+                        </button>
+                        <button class="home-filter__btn">
+                            Sắp chiếu
+                        </button>
+                        <button class="home-filter__btn">
+                            Phim hot
+                        </button>
+                    </div>
+                </div>
+                <div class="row sm-gutter app__content">
+                    <div class="col l-10">
+                        <div class="home-product">
+                            <div class="row sm-gutter">
+                                <div class="col l-3">
+                                    <a href="" class="home-product__item">
+                                        <div class="home-product__item-img" style="background-image: url(./img/ảnh1.jpg);"></div>
+                                        <div class="home-product__item-rating">
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <h2 class="home-product__item-name">Transformer</h2>
+                                        <div class="home-product__item-tag">
+                                            <i class="icon-tag fa-solid fa-tag"></i>
+                                            <span class="name-tag">Hành động</span>
+                                        </div>
+                                        <div class="home-product__item-vote">
+                                            <span class="home-product__item-vote-scores">9.6</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-3">
+                                    <a href="" class="home-product__item">
+                                        <div class="home-product__item-img" style="background-image: url(./img/ảnh2.jpg);"></div>
+                                        <div class="home-product__item-rating">
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <h2 class="home-product__item-name">Fast & Furious</h2>
+                                        <div class="home-product__item-tag">
+                                            <i class="icon-tag fa-solid fa-tag"></i>
+                                            <span class="name-tag">Siêu hành động</span>
+                                        </div>
+                                        <div class="home-product__item-vote">
+                                            <span class="home-product__item-vote-scores">9.6</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-3">
+                                    <a href="" class="home-product__item">
+                                        <div class="home-product__item-img" style="background-image: url(./img/ảnh3.jpg);"></div>
+                                        <div class="home-product__item-rating">
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <h2 class="home-product__item-name">X-Men</h2>
+                                        <div class="home-product__item-tag">
+                                            <i class="icon-tag fa-solid fa-tag"></i>
+                                            <span class="name-tag">Rất hành động</span>
+                                        </div>
+                                        <div class="home-product__item-vote">
+                                            <span class="home-product__item-vote-scores">9.6</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-3">
+                                    <a href="" class="home-product__item">
+                                        <div class="home-product__item-img" style="background-image: url(./img/ảnh4.jpg);"></div>
+                                        <div class="home-product__item-rating">
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <h2 class="home-product__item-name">Superman</h2>
+                                        <div class="home-product__item-tag">
+                                            <i class="icon-tag fa-solid fa-tag"></i>
+                                            <span class="name-tag">Cực kì hành động</span>
+                                        </div>
+                                        <div class="home-product__item-vote">
+                                            <span class="home-product__item-vote-scores">9.6</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-3">
+                                    <a href="" class="home-product__item">
+                                        <div class="home-product__item-img" style="background-image: url(./img/ảnh1.jpg);"></div>
+                                        <div class="home-product__item-rating">
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <h2 class="home-product__item-name">Transformer</h2>
+                                        <div class="home-product__item-tag">
+                                            <i class="icon-tag fa-solid fa-tag"></i>
+                                            <span class="name-tag">Hành động</span>
+                                        </div>
+                                        <div class="home-product__item-vote">
+                                            <span class="home-product__item-vote-scores">9.6</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-3">
+                                    <a href="" class="home-product__item">
+                                        <div class="home-product__item-img" style="background-image: url(./img/ảnh2.jpg);"></div>
+                                        <div class="home-product__item-rating">
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <h2 class="home-product__item-name">Fast & Furious</h2>
+                                        <div class="home-product__item-tag">
+                                            <i class="icon-tag fa-solid fa-tag"></i>
+                                            <span class="name-tag">Siêu hành động</span>
+                                        </div>
+                                        <div class="home-product__item-vote">
+                                            <span class="home-product__item-vote-scores">9.6</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-3">
+                                    <a href="" class="home-product__item">
+                                        <div class="home-product__item-img" style="background-image: url(./img/ảnh3.jpg);"></div>
+                                        <div class="home-product__item-rating">
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <h2 class="home-product__item-name">X-Men</h2>
+                                        <div class="home-product__item-tag">
+                                            <i class="icon-tag fa-solid fa-tag"></i>
+                                            <span class="name-tag">Rất hành động</span>
+                                        </div>
+                                        <div class="home-product__item-vote">
+                                            <span class="home-product__item-vote-scores">9.6</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-3">
+                                    <a href="" class="home-product__item">
+                                        <div class="home-product__item-img" style="background-image: url(./img/ảnh4.jpg);"></div>
+                                        <div class="home-product__item-rating">
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <h2 class="home-product__item-name">Superman</h2>
+                                        <div class="home-product__item-tag">
+                                            <i class="icon-tag fa-solid fa-tag"></i>
+                                            <span class="name-tag">Cực kì hành động</span>
+                                        </div>
+                                        <div class="home-product__item-vote">
+                                            <span class="home-product__item-vote-scores">9.6</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-3">
+                                    <a href="" class="home-product__item">
+                                        <div class="home-product__item-img" style="background-image: url(./img/ảnh1.jpg);"></div>
+                                        <div class="home-product__item-rating">
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <h2 class="home-product__item-name">Transformer</h2>
+                                        <div class="home-product__item-tag">
+                                            <i class="icon-tag fa-solid fa-tag"></i>
+                                            <span class="name-tag">Hành động</span>
+                                        </div>
+                                        <div class="home-product__item-vote">
+                                            <span class="home-product__item-vote-scores">9.6</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-3">
+                                    <a href="" class="home-product__item">
+                                        <div class="home-product__item-img" style="background-image: url(./img/ảnh2.jpg);"></div>
+                                        <div class="home-product__item-rating">
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <h2 class="home-product__item-name">Fast & Furious</h2>
+                                        <div class="home-product__item-tag">
+                                            <i class="icon-tag fa-solid fa-tag"></i>
+                                            <span class="name-tag">Siêu hành động</span>
+                                        </div>
+                                        <div class="home-product__item-vote">
+                                            <span class="home-product__item-vote-scores">9.6</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-3">
+                                    <a href="" class="home-product__item">
+                                        <div class="home-product__item-img" style="background-image: url(./img/ảnh3.jpg);"></div>
+                                        <div class="home-product__item-rating">
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <h2 class="home-product__item-name">X-Men</h2>
+                                        <div class="home-product__item-tag">
+                                            <i class="icon-tag fa-solid fa-tag"></i>
+                                            <span class="name-tag">Rất hành động</span>
+                                        </div>
+                                        <div class="home-product__item-vote">
+                                            <span class="home-product__item-vote-scores">9.6</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-3">
+                                    <a href="" class="home-product__item">
+                                        <div class="home-product__item-img" style="background-image: url(./img/ảnh4.jpg);"></div>
+                                        <div class="home-product__item-rating">
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="star__gold fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <h2 class="home-product__item-name">Superman</h2>
+                                        <div class="home-product__item-tag">
+                                            <i class="icon-tag fa-solid fa-tag"></i>
+                                            <span class="name-tag">Cực kì hành động</span>
+                                        </div>
+                                        <div class="home-product__item-vote">
+                                            <span class="home-product__item-vote-scores">9.6</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-2">
+                        <span class="top__rating">Bảng xếp hạng</span>
+                        <div class="billboard">
+                            <div class="row sm-gutter">
+                                <div class="col l-12">
+                                    <a href="" class="home-billboard__item">
+                                        <div class="home-billboard__item-img" style="background-image: url(./img/ảnh1.jpg);"></div>
+                                        <div class="home-billboard__item-info">
+                                            <div class="home-billboard__item-name">Thanh Gươm Diệt Quỷ: Cuộc chiến ở Vô hạn thành</div>
+                                            <div class="home-billboard__item-rating">
+                                                <i class="star__gold fa-solid fa-star"></i>
+                                                <i class="star__gold fa-solid fa-star"></i>
+                                                <i class="star__gold fa-solid fa-star"></i>
+                                                <i class="star__gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="home-billboard__vote home-billboard__vote-red">
+                                                <span class="home-billboard__number">1</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-12">
+                                    <a href="" class="home-billboard__item">
+                                        <div class="home-billboard__item-img" style="background-image: url(./img/ảnh1.jpg);"></div>
+                                        <div class="home-billboard__item-info">
+                                            <div class="home-billboard__item-name">Thanh Gươm Diệt Quỷ: Cuộc chiến ở Vô hạn thành</div>
+                                            <div class="home-billboard__item-rating">
+                                                <i class="star__gold fa-solid fa-star"></i>
+                                                <i class="star__gold fa-solid fa-star"></i>
+                                                <i class="star__gold fa-solid fa-star"></i>
+                                                <i class="star__gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="home-billboard__vote home-billboard__vote-green">
+                                                <span class="home-billboard__number">2</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-12">
+                                    <a href="" class="home-billboard__item">
+                                        <div class="home-billboard__item-img" style="background-image: url(./img/ảnh1.jpg);"></div>
+                                        <div class="home-billboard__item-info">
+                                            <div class="home-billboard__item-name">Thanh Gươm Diệt Quỷ: Cuộc chiến ở Vô hạn thành</div>
+                                            <div class="home-billboard__item-rating">
+                                                <i class="star__gold fa-solid fa-star"></i>
+                                                <i class="star__gold fa-solid fa-star"></i>
+                                                <i class="star__gold fa-solid fa-star"></i>
+                                                <i class="star__gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="home-billboard__vote home-billboard__vote-orange">
+                                                <span class="home-billboard__number">3</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-12">
+                                    <a href="" class="home-billboard__item">
+                                        <div class="home-billboard__item-img" style="background-image: url(./img/ảnh1.jpg);"></div>
+                                        <div class="home-billboard__item-info">
+                                            <div class="home-billboard__item-name">Thanh Gươm Diệt Quỷ: Cuộc chiến ở Vô hạn thành</div>
+                                            <div class="home-billboard__item-rating">
+                                                <i class="star__gold fa-solid fa-star"></i>
+                                                <i class="star__gold fa-solid fa-star"></i>
+                                                <i class="star__gold fa-solid fa-star"></i>
+                                                <i class="star__gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-12">
+                                    <a href="" class="home-billboard__item">
+                                        <div class="home-billboard__item-img" style="background-image: url(./img/ảnh1.jpg);"></div>
+                                        <div class="home-billboard__item-info">
+                                            <div class="home-billboard__item-name">Thanh Gươm Diệt Quỷ: Cuộc chiến ở Vô hạn thành</div>
+                                            <div class="home-billboard__item-rating">
+                                                <i class="star__gold fa-solid fa-star"></i>
+                                                <i class="star__gold fa-solid fa-star"></i>
+                                                <i class="star__gold fa-solid fa-star"></i>
+                                                <i class="star__gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-12">
+                                    <a href="" class="home-billboard__item">
+                                        <div class="home-billboard__item-img" style="background-image: url(./img/ảnh1.jpg);"></div>
+                                        <div class="home-billboard__item-info">
+                                            <div class="home-billboard__item-name">Thanh Gươm Diệt Quỷ: Cuộc chiến ở Vô hạn thành</div>
+                                            <div class="home-billboard__item-rating">
+                                                <i class="star__gold fa-solid fa-star"></i>
+                                                <i class="star__gold fa-solid fa-star"></i>
+                                                <i class="star__gold fa-solid fa-star"></i>
+                                                <i class="star__gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-12">
+                                    <a href="" class="home-billboard__item">
+                                        <div class="home-billboard__item-img" style="background-image: url(./img/ảnh1.jpg);"></div>
+                                        <div class="home-billboard__item-info">
+                                            <div class="home-billboard__item-name">Thanh Gươm Diệt Quỷ: Cuộc chiến ở Vô hạn thành</div>
+                                            <div class="home-billboard__item-rating">
+                                                <i class="star__gold fa-solid fa-star"></i>
+                                                <i class="star__gold fa-solid fa-star"></i>
+                                                <i class="star__gold fa-solid fa-star"></i>
+                                                <i class="star__gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-12">
+                                    <a href="" class="home-billboard__item">
+                                        <div class="home-billboard__item-img" style="background-image: url(./img/ảnh1.jpg);"></div>
+                                        <div class="home-billboard__item-info">
+                                            <div class="home-billboard__item-name">Thanh Gươm Diệt Quỷ: Cuộc chiến ở Vô hạn thành</div>
+                                            <div class="home-billboard__item-rating">
+                                                <i class="star__gold fa-solid fa-star"></i>
+                                                <i class="star__gold fa-solid fa-star"></i>
+                                                <i class="star__gold fa-solid fa-star"></i>
+                                                <i class="star__gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="pagination home-product__pagination">
+                    <li class="pagination-item">
+                        <a href="" class="pagination-item__link">
+                            <i class="pagination-item__link-icon fa-solid fa-angle-left"></i>
+                        </a>
+                    </li>
+                    <li class="pagination-item pagination-item--active">
+                        <a href="" class="pagination-item__link">1</a>
+                    </li>
+                    <li class="pagination-item">
+                        <a href="" class="pagination-item__link">2</a>
+                    </li>
+                    <li class="pagination-item">
+                        <a href="" class="pagination-item__link">3</a>
+                    </li>
+                    <li class="pagination-item">
+                        <a href="" class="pagination-item__link">4</a>
+                    </li>
+                    <li class="pagination-item">
+                        <a href="" class="pagination-item__link">...</a>
+                    </li>
+                    <li class="pagination-item">
+                        <a href="" class="pagination-item__link">999</a>
+                    </li>
+                    <li class="pagination-item">
+                        <a href="" class="pagination-item__link">
+                            <i class="pagination-item__link-icon fa-solid fa-angle-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="grid wide footer__content">
+                <div class="row">
+                    <div class="col l-4">
+                        <h3 class="footer__heading">Thông tin</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Liên hệ</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Giới thiệu</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Bản quyền</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col l-4">
+                        <h3 class="footer__heading">Danh mục</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Phim mới</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Phim hot</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col l-4">
+                        <h3 class="footer__heading">Theo dõi</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-icon fa-brands fa-facebook"></i> Facebook
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-icon fa-brands fa-instagram-square"></i> Instagram
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-icon fa-brands fa-twitter"></i> Twitter
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

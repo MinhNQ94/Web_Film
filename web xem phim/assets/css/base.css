@@ -1,0 +1,87 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #cad3da;
+    --primary-color: #073c5e;
+    --header-height: 80px;
+    --gold-color: #e6b71e;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.star__gold {
+    color: yellow;
+}
+
+.billboard::-webkit-scrollbar {
+    width: 8px;
+    height: 16px;
+}
+  
+.billboard::-webkit-scrollbar-track {
+    background-color: rgb(255, 255, 255);
+    border-radius: 100vw;
+    margin-block: 8px;
+}
+  
+.billboard::-webkit-scrollbar-thumb {
+    background-color: rgb(240, 243, 43);
+    border: 2px solid rgb(231, 240, 109);
+    border-radius: 100vw;
+}
+
+.billboard::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(156, 154, 4);
+}
+
+/* Pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.pagination-item__link {
+    --height: 30px;
+    display: block;
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: 300;
+    color: #666;
+    min-width: 40px;
+    height: var(--height);
+    text-align: center;
+    line-height: var(--height);
+    border-radius: 2px;
+}
+
+.home-product__pagination {
+    margin-top: 48px;
+    padding-left: 0;
+    padding-bottom: 32px;
+}
+
+.pagination-item {
+    margin: 0 12px;
+}
+
+.pagination-item--active .pagination-item__link {
+    background-color: #fff;
+    color: var(--text-color);
+}
+
+.pagination-item__link:hover {
+    color: var(--text-color);
+}
